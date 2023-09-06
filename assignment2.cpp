@@ -24,9 +24,9 @@ int main(){
 	
 	cout<<"does your mushroom have comvex cup:\n";
 	cin>>comvex_cup;
-	if(comvex_cup=='y')
+	if(comvex_cup=='n')
 	cout<<" your mushroom is:GIROLLE";
-	else if(comvex_cup=='n')
+	else if(comvex_cup=='y')
 	cout<<"your mushroom is:PIED BLEU";
 }
 else if(gills!='y'||gills!='n'||forest!='n'||forest!='y'||ring!='n'||ring!='y'){
